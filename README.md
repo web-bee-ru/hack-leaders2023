@@ -1,3 +1,8 @@
+Результаты:
+- [dist/submission_1.csv](dist/submission_1.csv)
+- [dist/submission_2.parquet](dist/submission_2.parquet)
+- [dist/submission_3.parquet](dist/submission_3.parquet)
+
 Зависимости:
 - pandas 2.x
 - pyarrow
