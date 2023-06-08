@@ -65,7 +65,7 @@ export const darkTheme = createTheme({
     },
     background: {
       default: '#1c1c1c',
-      paper: '#272727',
+      paper: '#363636',
     },
     divider: '#D9D9D914',
   },

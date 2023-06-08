@@ -21,6 +21,7 @@ export const getErrorMessage = (err: any): string => {
 const StyledAlert = styled(Alert)`
   padding: 14px 13px 14px 18px;
   font-weight: 500;
+  border-radius: 12px;
   .MuiAlert-icon {
     min-width: 22px;
   }
@@ -67,28 +68,28 @@ const StyledAlert = styled(Alert)`
     }
   }
   &.MuiAlert-standardWarning {
-    background-color: ${(props) => props.theme.palette.warning.medium};
+    background-color: ${(props) => props.theme.palette.background.paper};
     color: ${(props) => props.theme.palette.warning.dark};
     .MuiAlert-icon {
       color: ${(props) => props.theme.palette.warning.dark};
     }
   }
   &.MuiAlert-standardError {
-    background-color: ${(props) => props.theme.palette.error.medium};
+    background-color: ${(props) => props.theme.palette.background.paper};
     color: ${(props) => props.theme.palette.error.dark};
     .MuiAlert-icon {
       color: ${(props) => props.theme.palette.error.dark};
     }
   }
   &.MuiAlert-standardInfo {
-    background-color: ${(props) => props.theme.palette.info.medium};
+    background-color: ${(props) => props.theme.palette.background.paper};
     color: ${(props) => props.theme.palette.info.dark};
     .MuiAlert-icon {
       color: ${(props) => props.theme.palette.info.dark};
     }
   }
   &.MuiAlert-standardSuccess {
-    background-color: ${(props) => props.theme.palette.success.medium};
+    background-color: ${(props) => props.theme.palette.background.paper};
     color: ${(props) => props.theme.palette.success.dark};
     .MuiAlert-icon {
       color: ${(props) => props.theme.palette.success.dark};
