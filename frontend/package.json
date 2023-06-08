@@ -16,6 +16,7 @@
     "@mui/x-date-pickers": "^6.0.4",
     "@mui/x-date-pickers-pro": "^6.0.4",
     "axios": "^1.4.0",
+    "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "lodash": "^4.17.21",
     "next": "13.4.4",

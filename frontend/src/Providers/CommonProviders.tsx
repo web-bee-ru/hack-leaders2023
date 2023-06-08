@@ -5,6 +5,8 @@ import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { ru } from 'date-fns/locale';
 import { ruRU } from '@mui/x-date-pickers/locales';
+import ModalProvider from '@/Providers/ModalProvider';
+import ToastProvider from '@/Providers/ToastProvider';
 
 interface CommonProvidersProps extends PropChildren {
   theme: Theme;
@@ -19,7 +21,9 @@ const CommonProviders = ({ theme, children }: CommonProvidersProps) => {
     >
       <ThemeProvider theme={theme}>
         <GlobalStyles styles={cssReset} />
-        {children}
+        <ToastProvider>
+          <ModalProvider>{children}</ModalProvider>
+        </ToastProvider>
       </ThemeProvider>
     </LocalizationProvider>
   );
