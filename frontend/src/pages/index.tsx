@@ -6,6 +6,9 @@ import { ToastContext } from '@/Providers/ToastProvider';
 import { muiHelper } from '@/lib/muiThemeInterpolation';
 import DefaultDatePicker from '@/components/UI/DefaultDatePicker';
 import DefaultMenu, { MenuOptionProps } from '@/components/UI/DefaultMenu';
+import dynamic from 'next/dynamic';
+
+const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 const Block = styled(Box)`
   display: flex;
@@ -19,13 +22,91 @@ const StyledButton = styled(Button)`
   justify-content: flex-start;
 `;
 
+const state = {
+  series: [
+    {
+      name: '総数',
+      type: 'column',
+      data: [4857, 7289, 8108, 7899, 11140, 13559],
+    },
+    {
+      name: 'hoge数',
+      type: 'column',
+      data: [680, 1108, 1200, 1098, 967, 800],
+    },
+
+    {
+      name: 'hoge率',
+      type: 'line',
+      data: [14, 15.2, 14.8, 13.9, 8.68, 5.9],
+    },
+  ],
+  options: {
+    chart: {
+      height: 350,
+      type: 'line',
+    },
+    colors: ['#318fb5', '#b0cac7', '#005086', '#f7d6bf', '#001244'],
+    stroke: {
+      width: [0, 4],
+    },
+    title: {
+      text: '【タイトル】',
+    },
+    dataLabels: {
+      enabled: true,
+      enabledOnSeries: [0, 1, 2],
+    },
+    labels: ['2015年度', '2016年度', '2017年度', '2018年度', '2019年度', '2020年度'],
+    xaxis: {
+      type: 'category',
+    },
+    yaxis: [
+      {
+        seriesName: '総数',
+        title: {
+          text: '人数',
+        },
+        labels: {
+          formatter: (value: number) => {
+            return value + '人';
+          },
+        },
+      },
+      {
+        seriesName: '総数', // スケール合わせるためにわざと総数にしている
+        show: false,
+      },
+      {
+        seriesName: 'hoge率',
+        opposite: true,
+        title: {
+          text: '比率',
+        },
+        labels: {
+          formatter: (value: number) => {
+            return value + '%';
+          },
+        },
+      },
+    ],
+    legend: {
+      position: 'right',
+      width: 128,
+    },
+    tooltip: {
+      shared: false,
+    },
+  },
+};
+
 const Index = () => {
   const { show } = useModal();
   const { successToast, errorToast, infoToast, warningToast } = useContext(ToastContext);
 
   const [date, setDate] = useState<Date>();
 
-  const options = useMemo<MenuOptionProps[]>(
+  const menuOptions = useMemo<MenuOptionProps[]>(
     () =>
       date
         ? [
@@ -38,6 +119,9 @@ const Index = () => {
         : [],
     [date],
   );
+
+  const series = useMemo(() => [{ name: 'Test', data: [44, 55, 41, 17, 15] }], []);
+  const chartOptions = useMemo(() => ['A', 'B', 'C', 'D', 'E'], []);
 
   return (
     <Box display={'flex'} flexDirection={'column'} gap={2}>
@@ -59,8 +143,12 @@ const Index = () => {
       </Block>
       <Block>
         <Typography variant={'h5'}>Меню</Typography>
-        {!options.length && <Typography variant={'subtitle2'}>Выбери дату, чтобы разблокировать меню</Typography>}
-        <DefaultMenu text={'Меню'} options={options} />
+        {!menuOptions.length && <Typography variant={'subtitle2'}>Выбери дату, чтобы разблокировать меню</Typography>}
+        <DefaultMenu text={'Меню'} options={menuOptions} />
+      </Block>
+      <Block>
+        <Typography variant={'h5'}>График - Line</Typography>
+        <ReactApexChart series={state.series} options={state.options} height={350} type={'line'} />
       </Block>
     </Box>
   );

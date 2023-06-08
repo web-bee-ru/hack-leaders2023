@@ -1,8 +1,10 @@
-import { PropChildren } from '@/types/UtilityProps';
+import dynamic from 'next/dynamic';
+
+const Identity: React.FC = ({ children }) => {
+  return <>{children}</>;
+};
 
 // Disables SSR
-const SafeHydrate = ({ children }: PropChildren) => {
-  return <div suppressHydrationWarning>{typeof window === 'undefined' ? null : children}</div>;
-};
+const SafeHydrate = dynamic(async () => Identity, { ssr: false });
 
 export default SafeHydrate;
