@@ -10,6 +10,13 @@ import dynamic from 'next/dynamic';
 
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
+const StyledReactApexChart = styled(ReactApexChart)`
+  .apexcharts-tooltip {
+    background: #f3f3f3;
+    color: orange;
+  }
+`;
+
 const Block = styled(Box)`
   display: flex;
   flex-direction: column;
@@ -25,18 +32,18 @@ const StyledButton = styled(Button)`
 const state = {
   series: [
     {
-      name: '総数',
+      name: 'First',
       type: 'column',
       data: [4857, 7289, 8108, 7899, 11140, 13559],
     },
     {
-      name: 'hoge数',
+      name: 'Second',
       type: 'column',
       data: [680, 1108, 1200, 1098, 967, 800],
     },
 
     {
-      name: 'hoge率',
+      name: 'Third',
       type: 'line',
       data: [14, 15.2, 14.8, 13.9, 8.68, 5.9],
     },
@@ -51,7 +58,10 @@ const state = {
       width: [0, 4],
     },
     title: {
-      text: '【タイトル】',
+      text: 'Graph text',
+      style: {
+        color: '#b0cac7',
+      },
     },
     dataLabels: {
       enabled: true,
@@ -63,7 +73,7 @@ const state = {
     },
     yaxis: [
       {
-        seriesName: '総数',
+        seriesName: 'First',
         title: {
           text: '人数',
         },
@@ -74,11 +84,11 @@ const state = {
         },
       },
       {
-        seriesName: '総数', // スケール合わせるためにわざと総数にしている
+        seriesName: 'First',
         show: false,
       },
       {
-        seriesName: 'hoge率',
+        seriesName: 'Third',
         opposite: true,
         title: {
           text: '比率',
