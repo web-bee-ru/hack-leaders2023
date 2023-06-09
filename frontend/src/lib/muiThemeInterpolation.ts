@@ -3,7 +3,7 @@ import { FunctionInterpolation } from '@emotion/react';
 import { Theme } from '@mui/material';
 import { SpacingArgument } from '@mui/system/createTheme/createSpacing';
 import { get, mapValues } from 'lodash';
-import { baseTheme } from '@/const/defaultTheme';
+import defaultTheme from '@/themes/defaultTheme';
 
 type ThemeCssInterpolationFunction = FunctionInterpolation<{ theme: Theme }>;
 const rec =
@@ -46,4 +46,4 @@ type MuiCssInterpolationHelper = DeepMapTheme<Theme> & {
   spacing: MuiSpacing<ThemeCssInterpolationFunction>;
 };
 
-export const muiHelper = mapValues(baseTheme, rec()) as MuiCssInterpolationHelper;
+export const muiHelper = mapValues(defaultTheme, rec()) as MuiCssInterpolationHelper;

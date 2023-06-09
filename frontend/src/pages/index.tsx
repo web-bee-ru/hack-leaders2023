@@ -20,7 +20,6 @@ const StyledReactApexChart = styled(ReactApexChart)`
 const Block = styled(Box)`
   display: flex;
   flex-direction: column;
-  gap: ${muiHelper.spacing(1)};
 `;
 
 const StyledButton = styled(Button)`
@@ -149,7 +148,7 @@ const Index = () => {
       <Block>
         <Typography variant={'h5'}>Датапикер:</Typography>
         <Typography variant={'subtitle2'}>{date?.toString() ?? 'Выберите дату'}</Typography>
-        <DefaultDatePicker value={date} onChange={(value) => setDate(value)} sx={{ width: 200 }} />
+        <DefaultDatePicker value={date} onChange={(value: Date) => setDate(value)} sx={{ width: 200 }} />
       </Block>
       <Block>
         <Typography variant={'h5'}>Меню</Typography>

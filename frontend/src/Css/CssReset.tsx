@@ -1,5 +1,4 @@
 import { css } from '@mui/material/styles';
-import { darkTheme } from '@/const/defaultTheme';
 
 export const cssReset = css`
   /*
@@ -77,9 +76,5 @@ export const cssReset = css`
   #root,
   #__next {
     isolation: isolate;
-  }
-
-  body {
-    background: ${darkTheme.palette.background.default};
   }
 `;

@@ -1,7 +1,8 @@
 import dynamic from 'next/dynamic';
+import { PropsWithChildren } from 'react';
 
-const Identity: React.FC = ({ children }) => {
-  return <>{children}</>;
+const Identity: React.FC = (props: PropsWithChildren) => {
+  return <>{props ? props.children : []}</>;
 };
 
 // Disables SSR

@@ -8,12 +8,12 @@ export const StyledMenu = styled(Menu)`
   .MuiMenu-list {
     display: flex;
     flex-direction: column;
-    padding: ${muiHelper.spacing(0.5)};
-    gap: ${muiHelper.spacing(0.5)};
+    padding: 1;
+    gap: 1;
   }
   .MuiMenuItem-root {
     height: 20px;
-    padding: ${muiHelper.spacing(0, 1)};
+    padding: 1;
     &:hover {
       border-radius: 4px;
     }
