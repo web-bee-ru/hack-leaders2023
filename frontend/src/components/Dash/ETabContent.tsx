@@ -1,42 +1,52 @@
 import * as React from 'react';
 import { E } from '@/components/Dash/Dash';
 import { Box, CircularProgress, styled, Typography } from '@mui/material';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import {useCallback, useContext, useEffect, useMemo, useState} from 'react';
 import ECharts from '@/components/Dash/ECharts';
 import EDescriptionFull, { EventDescription } from '@/components/Dash/EDescriptionFull';
+import useSWR from "swr";
+import {SimulationContext} from "@/Providers/SimulationProvider";
+import {formatDateForServer} from "@/lib/utils";
 
 interface ETabContentProps {
   e: E;
 }
 
-export default ({ e }: ETabContentProps) => {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [eDesc, setEDesc] = useState<{ m1: EventDescription; m3: EventDescription }>({ m1: {}, m3: {} });
-  const [chartsData, setChartsData] = useState<number[]>();
+export interface ResultForTableRow {
+  tmId: number;
+  tmName: string;
+  lastM1Crash: string | null;
+  lastM3Crash: string | null;
+  nextM1CrashSec: number | null;
+  nextM3CrashSec: number | null;
+  avgM1FixSec: number | null;
+  avgM3FixSec: number | null;
+  medM1FixSec: number | null;
+  medM3FixSec: number | null;
+}
 
-  const loadChartsData = useCallback(async () => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setEDesc({
-        m1: {
-          daysTo: 12,
-          lastRegisteredDate: new Date('01-01-2021'),
-          meanFixTime: 123,
-        },
-        m3: {
-          daysTo: 3,
-          lastRegisteredDate: new Date('08-13-2021'),
-          meanFixTime: 5,
-        },
-      });
-      setChartsData((data) => (data ? [...data, Date.now()] : [Date.now()]));
-      setIsLoading(false);
-    }, 500);
-  }, [e, setIsLoading]);
+export default ({ e }: ETabContentProps) => {
+  const { now } = useContext(SimulationContext);
+
+  const loadTableData = useCallback(async () => {
+    const url = `/api/main/tms-for-table?date=${formatDateForServer(now)}&machine_id=${e.id}`;
+    return fetch(url).then(r => r.json());
+  }, [e, now]);
+
+  const resultForTable = useSWR('tms-for-table'+e.id, loadTableData);
 
   useEffect(() => {
-    loadChartsData();
-  }, [e]);
+    resultForTable.mutate();
+  }, [now, e]);
+
+  const isLoading = useMemo<boolean>(() => {
+    return resultForTable.isLoading;
+  }, [resultForTable.isLoading]);
+
+  const tableData = useMemo<ResultForTableRow[]>(() => {
+    if (resultForTable.isLoading || !resultForTable.data) return [];
+    return resultForTable.data;
+  }, [resultForTable.isLoading, resultForTable.data]);
 
   return (
     <>
@@ -49,7 +59,8 @@ export default ({ e }: ETabContentProps) => {
         </Box>
       ) : (
         <>
-          <EDescriptionFull e={e} {...eDesc} />
+          <EDescriptionFull e={e} tableData={tableData} />
+          {/*@TODO*/}
           <ECharts e={e} />
         </>
       )}

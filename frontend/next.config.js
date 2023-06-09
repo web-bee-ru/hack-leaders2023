@@ -1,7 +1,7 @@
 const process = require('process');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
 
   publicRuntimeConfig: {
     API_BASE_URL: '/api',

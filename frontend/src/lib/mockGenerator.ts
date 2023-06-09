@@ -1,7 +1,7 @@
 import * as dateFns from 'date-fns';
 
 const addTick = (date: Date) => {
-  return dateFns.addHours(date, 3);
+  return dateFns.addHours(date, 1);
 };
 
 const sumArray = (arr: number[]) => {
