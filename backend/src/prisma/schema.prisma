@@ -1,0 +1,309 @@
+generator client {
+  provider      = "prisma-client-js"
+  output        = "./client"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+model user {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(255)
+  age  Int
+}
+
+model machines {
+  id                Int                 @id(map: "machines_pk") @default(autoincrement())
+  display_name      String              @db.VarChar
+  column_name       String              @db.VarChar
+  sensor_values     sensor_values[]
+  tm_m1_predictions tm_m1_predictions[]
+  tm_m1_values      tm_m1_values[]
+  tm_m3_predictions tm_m3_predictions[]
+  tm_m3_values      tm_m3_values[]
+  model_column_name String?             @db.VarChar
+}
+
+model sensor_values {
+  id                                 Int      @id(map: "sensor_values_pk") @default(autoincrement())
+  dt                                 DateTime @db.Timestamptz(6)
+  machine_id                         Int
+  vibraciya_na_opore_1               Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 1") @db.Real
+  vibraciya_na_opore_2               Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 2") @db.Real
+  vibraciya_na_opore_3               Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 3") @db.Real
+  vibraciya_na_opore_3_prodol_naya_  Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.") @db.Real
+  vibraciya_na_opore_4               Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 4") @db.Real
+  vibraciya_na_opore_4_prodol_naya_  Float?   @map("ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.") @db.Real
+  davlenie_masla_v_sisteme           Float?   @map("ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ") @db.Real
+  temperatura_masla_v_maslobloke     Float?   @map("ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ") @db.Real
+  temperatura_masla_v_sisteme        Float?   @map("ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ") @db.Real
+  temperatura_podshipnika_na_opore_1 Float?   @map("ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1") @db.Real
+  temperatura_podshipnika_na_opore_2 Float?   @map("ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2") @db.Real
+  temperatura_podshipnika_na_opore_3 Float?   @map("ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3") @db.Real
+  temperatura_podshipnika_na_opore_4 Float?   @map("ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4") @db.Real
+  tok_rotora_1                       Float?   @map("ТОК РОТОРА 1") @db.Real
+  tok_rotora_2                       Float?   @map("ТОК РОТОРА 2") @db.Real
+  tok_statora                        Float?   @map("ТОК СТАТОРА") @db.Real
+  machines                           machines @relation(fields: [machine_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "sensor_values_machines_fk")
+
+  @@unique([dt, machine_id], map: "sensor_values_dt_machine_id_idx")
+}
+
+model sensors {
+  id                Int     @id(map: "sensors_pk") @default(autoincrement())
+  display_name      String  @db.VarChar
+  column_name       String  @db.VarChar
+  model_column_name String? @db.VarChar
+}
+
+model tm_m1_predictions {
+  id                                     Int      @id(map: "tm_m1_predictions_pk") @default(autoincrement())
+  dt                                     DateTime @db.Timestamptz(6)
+  machine_id                             Int
+  vk_310s_vibropreobrazovatel_t_1        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.1") @db.Real
+  vk_310s_vibropreobrazovatel_t_2        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.2") @db.Real
+  vk_310s_vibropreobrazovatel_t_3        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.3") @db.Real
+  vk_310s_vibropreobrazovatel_t_4        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.4") @db.Real
+  gazovaya_zadvizhka                     Float?   @map("ГАЗОВАЯ ЗАДВИЖКА") @db.Real
+  gsm                                    Float?   @map("ГСМ") @db.Real
+  dvigatel_puskovogo_maslonasosa         Float?   @map("ДВИГАТЕЛЬ ПУСКОВОГО МАСЛОНАСОСА") @db.Real
+  dvigatel_rezervnogo_maslonasosa        Float?   @map("ДВИГАТЕЛЬ РЕЗЕРВНОГО МАСЛОНАСОСА") @db.Real
+  zadvizhka                              Float?   @map("ЗАДВИЖКА") @db.Real
+  zap_i_reg_armatura                     Float?   @map("ЗАП. И РЕГ. АРМАТУРА") @db.Real
+  zapornaya_armatura                     Float?   @map("ЗАПОРНАЯ АРМАТУРА") @db.Real
+  kl1_tr_do_ed                           Float?   @map("КЛ1 ТР ДО ЭД") @db.Real
+  kl2_tr_do_ed                           Float?   @map("КЛ2 ТР ДО ЭД") @db.Real
+  kozhuh_mufty                           Float?   @map("КОЖУХ МУФТЫ") @db.Real
+  korpus                                 Float?   @map("КОРПУС") @db.Real
+  maslobak                               Float?   @map("МАСЛОБАК") @db.Real
+  maslonasos_rabochij                    Float?   @map("МАСЛОНАСОС РАБОЧИЙ") @db.Real
+  maslonasos_shesterenchatyj_pusk_       Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (ПУСК.)") @db.Real
+  maslonasos_shesterenchatyj_rez_        Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (РЕЗ.)") @db.Real
+  masloohladitel_m_05_1                  Float?   @map("МАСЛООХЛАДИТЕЛЬ М-05-1") @db.Real
+  masloprovody                           Float?   @map("МАСЛОПРОВОДЫ") @db.Real
+  maslostanciya_zhidkoj_smazki           Float?   @map("МАСЛОСТАНЦИЯ ЖИДКОЙ СМАЗКИ") @db.Real
+  maslyanyj_fil_tr                       Float?   @map("МАСЛЯНЫЙ ФИЛЬТР") @db.Real
+  metran_100_datchiki_davleniya          Float?   @map("МЕТРАН-100 ДАТЧИКИ ДАВЛЕНИЯ") @db.Real
+  podshipnik_oporno_upornyj              Float?   @map("ПОДШИПНИК ОПОРНО-УПОРНЫЙ") @db.Real
+  podshipnik_opornyj_1                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №1") @db.Real
+  podshipnik_opornyj_2                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №2") @db.Real
+  podshipnik_opornyj                     Float?   @map("ПОДШИПНИК ОПОРНЫЙ") @db.Real
+  reguliruyushchaya_apparatura           Float?   @map("РЕГУЛИРУЮЩАЯ АППАРАТУРА") @db.Real
+  reduktor_gaz_zadvizhki                 Float?   @map("РЕДУКТОР ГАЗ. ЗАДВИЖКИ") @db.Real
+  rotor                                  Float?   @map("РОТОР") @db.Real
+  sapfir_22_mdd_perepad_davl_na_ciklo    Float?   @map("САПФИР 22 МДД ПЕРЕПАД ДАВЛ. НА ЦИКЛО") @db.Real
+  sapfir_22_mdd_razrezhenie_v_kollekto   Float?   @map("САПФИР 22 МДД РАЗРЕЖЕНИЕ В КОЛЛЕКТО") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu1       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ1") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu2       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ2") @db.Real
+  tiristornyj_vozbuditel_spvd_m10_400    Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ СПВД-М10-400") @db.Real
+  tiristornyj_vozbuditel_tv_400_vu1      Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ ТВ-400 ВУ1") @db.Real
+  tr_r_tm_4000_10_6                      Float?   @map("ТР-Р ТМ-4000-10/6") @db.Real
+  tr_r_tm_6300_10_6                      Float?   @map("ТР-Р ТМ-6300-10/6") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_3 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.3") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_4 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.4") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_1 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.1") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_2 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.2") @db.Real
+  tsmt_101_010_50m_80_termopreobr_maslo  Float?   @map("ТСМТ-101-010-50М-80 ТЕРМОПРЕОБР.МАСЛО") @db.Real
+  ulita                                  Float?   @map("УЛИТА") @db.Real
+  eksgauster_a_m                         Float?   @map("ЭКСГАУСТЕР А/М") @db.Real
+  eksgauster_n_8000_a_m                  Float?   @map("ЭКСГАУСТЕР Н-8000 А/М") @db.Real
+  el_dvigatel_gaz_zadvizhki              Float?   @map("ЭЛ/ДВИГАТЕЛЬ ГАЗ. ЗАДВИЖКИ") @db.Real
+  elektroapparatura                      Float?   @map("ЭЛЕКТРОАППАРАТУРА") @db.Real
+  elektrodvigatel_dspu_140_84_4          Float?   @map("ЭЛЕКТРОДВИГАТЕЛЬ ДСПУ-140-84-4") @db.Real
+  elektrooborudovaniya                   Float?   @map("ЭЛЕКТРООБОРУДОВАНИЯ") @db.Real
+  machines                               machines @relation(fields: [machine_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "tm_m1_predictions_machines_fk")
+}
+
+model tm_m1_values {
+  id                                     Int      @id(map: "tm_m1_values_pk") @default(autoincrement())
+  dt                                     DateTime @db.Timestamptz(6)
+  machine_id                             Int
+  vk_310s_vibropreobrazovatel_t_1        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.1") @db.Real
+  vk_310s_vibropreobrazovatel_t_2        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.2") @db.Real
+  vk_310s_vibropreobrazovatel_t_3        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.3") @db.Real
+  vk_310s_vibropreobrazovatel_t_4        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.4") @db.Real
+  gazovaya_zadvizhka                     Float?   @map("ГАЗОВАЯ ЗАДВИЖКА") @db.Real
+  gsm                                    Float?   @map("ГСМ") @db.Real
+  dvigatel_puskovogo_maslonasosa         Float?   @map("ДВИГАТЕЛЬ ПУСКОВОГО МАСЛОНАСОСА") @db.Real
+  dvigatel_rezervnogo_maslonasosa        Float?   @map("ДВИГАТЕЛЬ РЕЗЕРВНОГО МАСЛОНАСОСА") @db.Real
+  zadvizhka                              Float?   @map("ЗАДВИЖКА") @db.Real
+  zap_i_reg_armatura                     Float?   @map("ЗАП. И РЕГ. АРМАТУРА") @db.Real
+  zapornaya_armatura                     Float?   @map("ЗАПОРНАЯ АРМАТУРА") @db.Real
+  kl1_tr_do_ed                           Float?   @map("КЛ1 ТР ДО ЭД") @db.Real
+  kl2_tr_do_ed                           Float?   @map("КЛ2 ТР ДО ЭД") @db.Real
+  kozhuh_mufty                           Float?   @map("КОЖУХ МУФТЫ") @db.Real
+  korpus                                 Float?   @map("КОРПУС") @db.Real
+  maslobak                               Float?   @map("МАСЛОБАК") @db.Real
+  maslonasos_rabochij                    Float?   @map("МАСЛОНАСОС РАБОЧИЙ") @db.Real
+  maslonasos_shesterenchatyj_pusk_       Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (ПУСК.)") @db.Real
+  maslonasos_shesterenchatyj_rez_        Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (РЕЗ.)") @db.Real
+  masloohladitel_m_05_1                  Float?   @map("МАСЛООХЛАДИТЕЛЬ М-05-1") @db.Real
+  masloprovody                           Float?   @map("МАСЛОПРОВОДЫ") @db.Real
+  maslostanciya_zhidkoj_smazki           Float?   @map("МАСЛОСТАНЦИЯ ЖИДКОЙ СМАЗКИ") @db.Real
+  maslyanyj_fil_tr                       Float?   @map("МАСЛЯНЫЙ ФИЛЬТР") @db.Real
+  metran_100_datchiki_davleniya          Float?   @map("МЕТРАН-100 ДАТЧИКИ ДАВЛЕНИЯ") @db.Real
+  podshipnik_oporno_upornyj              Float?   @map("ПОДШИПНИК ОПОРНО-УПОРНЫЙ") @db.Real
+  podshipnik_opornyj_1                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №1") @db.Real
+  podshipnik_opornyj_2                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №2") @db.Real
+  podshipnik_opornyj                     Float?   @map("ПОДШИПНИК ОПОРНЫЙ") @db.Real
+  reguliruyushchaya_apparatura           Float?   @map("РЕГУЛИРУЮЩАЯ АППАРАТУРА") @db.Real
+  reduktor_gaz_zadvizhki                 Float?   @map("РЕДУКТОР ГАЗ. ЗАДВИЖКИ") @db.Real
+  rotor                                  Float?   @map("РОТОР") @db.Real
+  sapfir_22_mdd_perepad_davl_na_ciklo    Float?   @map("САПФИР 22 МДД ПЕРЕПАД ДАВЛ. НА ЦИКЛО") @db.Real
+  sapfir_22_mdd_razrezhenie_v_kollekto   Float?   @map("САПФИР 22 МДД РАЗРЕЖЕНИЕ В КОЛЛЕКТО") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu1       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ1") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu2       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ2") @db.Real
+  tiristornyj_vozbuditel_spvd_m10_400    Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ СПВД-М10-400") @db.Real
+  tiristornyj_vozbuditel_tv_400_vu1      Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ ТВ-400 ВУ1") @db.Real
+  tr_r_tm_4000_10_6                      Float?   @map("ТР-Р ТМ-4000-10/6") @db.Real
+  tr_r_tm_6300_10_6                      Float?   @map("ТР-Р ТМ-6300-10/6") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_3 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.3") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_4 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.4") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_1 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.1") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_2 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.2") @db.Real
+  tsmt_101_010_50m_80_termopreobr_maslo  Float?   @map("ТСМТ-101-010-50М-80 ТЕРМОПРЕОБР.МАСЛО") @db.Real
+  ulita                                  Float?   @map("УЛИТА") @db.Real
+  eksgauster_a_m                         Float?   @map("ЭКСГАУСТЕР А/М") @db.Real
+  eksgauster_n_8000_a_m                  Float?   @map("ЭКСГАУСТЕР Н-8000 А/М") @db.Real
+  el_dvigatel_gaz_zadvizhki              Float?   @map("ЭЛ/ДВИГАТЕЛЬ ГАЗ. ЗАДВИЖКИ") @db.Real
+  elektroapparatura                      Float?   @map("ЭЛЕКТРОАППАРАТУРА") @db.Real
+  elektrodvigatel_dspu_140_84_4          Float?   @map("ЭЛЕКТРОДВИГАТЕЛЬ ДСПУ-140-84-4") @db.Real
+  elektrooborudovaniya                   Float?   @map("ЭЛЕКТРООБОРУДОВАНИЯ") @db.Real
+  machines                               machines @relation(fields: [machine_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "tm_m1_values_machines_fk")
+
+  @@unique([dt, machine_id], map: "tm_m1_values_dt_machine_id_idx")
+}
+
+model tm_m3_predictions {
+  id                                     Int      @id(map: "tm_m3_predictions_pk") @default(autoincrement())
+  dt                                     DateTime @db.Timestamptz(6)
+  machine_id                             Int
+  vk_310s_vibropreobrazovatel_t_1        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.1") @db.Real
+  vk_310s_vibropreobrazovatel_t_2        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.2") @db.Real
+  vk_310s_vibropreobrazovatel_t_3        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.3") @db.Real
+  vk_310s_vibropreobrazovatel_t_4        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.4") @db.Real
+  gazovaya_zadvizhka                     Float?   @map("ГАЗОВАЯ ЗАДВИЖКА") @db.Real
+  gsm                                    Float?   @map("ГСМ") @db.Real
+  dvigatel_puskovogo_maslonasosa         Float?   @map("ДВИГАТЕЛЬ ПУСКОВОГО МАСЛОНАСОСА") @db.Real
+  dvigatel_rezervnogo_maslonasosa        Float?   @map("ДВИГАТЕЛЬ РЕЗЕРВНОГО МАСЛОНАСОСА") @db.Real
+  zadvizhka                              Float?   @map("ЗАДВИЖКА") @db.Real
+  zap_i_reg_armatura                     Float?   @map("ЗАП. И РЕГ. АРМАТУРА") @db.Real
+  zapornaya_armatura                     Float?   @map("ЗАПОРНАЯ АРМАТУРА") @db.Real
+  kl1_tr_do_ed                           Float?   @map("КЛ1 ТР ДО ЭД") @db.Real
+  kl2_tr_do_ed                           Float?   @map("КЛ2 ТР ДО ЭД") @db.Real
+  kozhuh_mufty                           Float?   @map("КОЖУХ МУФТЫ") @db.Real
+  korpus                                 Float?   @map("КОРПУС") @db.Real
+  maslobak                               Float?   @map("МАСЛОБАК") @db.Real
+  maslonasos_rabochij                    Float?   @map("МАСЛОНАСОС РАБОЧИЙ") @db.Real
+  maslonasos_shesterenchatyj_pusk_       Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (ПУСК.)") @db.Real
+  maslonasos_shesterenchatyj_rez_        Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (РЕЗ.)") @db.Real
+  masloohladitel_m_05_1                  Float?   @map("МАСЛООХЛАДИТЕЛЬ М-05-1") @db.Real
+  masloprovody                           Float?   @map("МАСЛОПРОВОДЫ") @db.Real
+  maslostanciya_zhidkoj_smazki           Float?   @map("МАСЛОСТАНЦИЯ ЖИДКОЙ СМАЗКИ") @db.Real
+  maslyanyj_fil_tr                       Float?   @map("МАСЛЯНЫЙ ФИЛЬТР") @db.Real
+  metran_100_datchiki_davleniya          Float?   @map("МЕТРАН-100 ДАТЧИКИ ДАВЛЕНИЯ") @db.Real
+  podshipnik_oporno_upornyj              Float?   @map("ПОДШИПНИК ОПОРНО-УПОРНЫЙ") @db.Real
+  podshipnik_opornyj_1                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №1") @db.Real
+  podshipnik_opornyj_2                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №2") @db.Real
+  podshipnik_opornyj                     Float?   @map("ПОДШИПНИК ОПОРНЫЙ") @db.Real
+  reguliruyushchaya_apparatura           Float?   @map("РЕГУЛИРУЮЩАЯ АППАРАТУРА") @db.Real
+  reduktor_gaz_zadvizhki                 Float?   @map("РЕДУКТОР ГАЗ. ЗАДВИЖКИ") @db.Real
+  rotor                                  Float?   @map("РОТОР") @db.Real
+  sapfir_22_mdd_perepad_davl_na_ciklo    Float?   @map("САПФИР 22 МДД ПЕРЕПАД ДАВЛ. НА ЦИКЛО") @db.Real
+  sapfir_22_mdd_razrezhenie_v_kollekto   Float?   @map("САПФИР 22 МДД РАЗРЕЖЕНИЕ В КОЛЛЕКТО") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu1       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ1") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu2       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ2") @db.Real
+  tiristornyj_vozbuditel_spvd_m10_400    Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ СПВД-М10-400") @db.Real
+  tiristornyj_vozbuditel_tv_400_vu1      Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ ТВ-400 ВУ1") @db.Real
+  tr_r_tm_4000_10_6                      Float?   @map("ТР-Р ТМ-4000-10/6") @db.Real
+  tr_r_tm_6300_10_6                      Float?   @map("ТР-Р ТМ-6300-10/6") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_3 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.3") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_4 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.4") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_1 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.1") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_2 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.2") @db.Real
+  tsmt_101_010_50m_80_termopreobr_maslo  Float?   @map("ТСМТ-101-010-50М-80 ТЕРМОПРЕОБР.МАСЛО") @db.Real
+  ulita                                  Float?   @map("УЛИТА") @db.Real
+  eksgauster_a_m                         Float?   @map("ЭКСГАУСТЕР А/М") @db.Real
+  eksgauster_n_8000_a_m                  Float?   @map("ЭКСГАУСТЕР Н-8000 А/М") @db.Real
+  el_dvigatel_gaz_zadvizhki              Float?   @map("ЭЛ/ДВИГАТЕЛЬ ГАЗ. ЗАДВИЖКИ") @db.Real
+  elektroapparatura                      Float?   @map("ЭЛЕКТРОАППАРАТУРА") @db.Real
+  elektrodvigatel_dspu_140_84_4          Float?   @map("ЭЛЕКТРОДВИГАТЕЛЬ ДСПУ-140-84-4") @db.Real
+  elektrooborudovaniya                   Float?   @map("ЭЛЕКТРООБОРУДОВАНИЯ") @db.Real
+  machines                               machines @relation(fields: [machine_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "tm_m3_predictions_machines_fk")
+
+  @@unique([dt, machine_id], map: "tm_m3_predictions_dt_machine_id_idx")
+}
+
+model tm_m3_values {
+  id                                     Int      @id(map: "tm_m3_values_pk") @default(autoincrement())
+  dt                                     DateTime @db.Timestamptz(6)
+  machine_id                             Int
+  vk_310s_vibropreobrazovatel_t_1        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.1") @db.Real
+  vk_310s_vibropreobrazovatel_t_2        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.2") @db.Real
+  vk_310s_vibropreobrazovatel_t_3        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.3") @db.Real
+  vk_310s_vibropreobrazovatel_t_4        Float?   @map("ВК 310С ВИБРОПРЕОБРАЗОВАТЕЛЬ Т.4") @db.Real
+  gazovaya_zadvizhka                     Float?   @map("ГАЗОВАЯ ЗАДВИЖКА") @db.Real
+  gsm                                    Float?   @map("ГСМ") @db.Real
+  dvigatel_puskovogo_maslonasosa         Float?   @map("ДВИГАТЕЛЬ ПУСКОВОГО МАСЛОНАСОСА") @db.Real
+  dvigatel_rezervnogo_maslonasosa        Float?   @map("ДВИГАТЕЛЬ РЕЗЕРВНОГО МАСЛОНАСОСА") @db.Real
+  zadvizhka                              Float?   @map("ЗАДВИЖКА") @db.Real
+  zap_i_reg_armatura                     Float?   @map("ЗАП. И РЕГ. АРМАТУРА") @db.Real
+  zapornaya_armatura                     Float?   @map("ЗАПОРНАЯ АРМАТУРА") @db.Real
+  kl1_tr_do_ed                           Float?   @map("КЛ1 ТР ДО ЭД") @db.Real
+  kl2_tr_do_ed                           Float?   @map("КЛ2 ТР ДО ЭД") @db.Real
+  kozhuh_mufty                           Float?   @map("КОЖУХ МУФТЫ") @db.Real
+  korpus                                 Float?   @map("КОРПУС") @db.Real
+  maslobak                               Float?   @map("МАСЛОБАК") @db.Real
+  maslonasos_rabochij                    Float?   @map("МАСЛОНАСОС РАБОЧИЙ") @db.Real
+  maslonasos_shesterenchatyj_pusk_       Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (ПУСК.)") @db.Real
+  maslonasos_shesterenchatyj_rez_        Float?   @map("МАСЛОНАСОС ШЕСТЕРЕНЧАТЫЙ (РЕЗ.)") @db.Real
+  masloohladitel_m_05_1                  Float?   @map("МАСЛООХЛАДИТЕЛЬ М-05-1") @db.Real
+  masloprovody                           Float?   @map("МАСЛОПРОВОДЫ") @db.Real
+  maslostanciya_zhidkoj_smazki           Float?   @map("МАСЛОСТАНЦИЯ ЖИДКОЙ СМАЗКИ") @db.Real
+  maslyanyj_fil_tr                       Float?   @map("МАСЛЯНЫЙ ФИЛЬТР") @db.Real
+  metran_100_datchiki_davleniya          Float?   @map("МЕТРАН-100 ДАТЧИКИ ДАВЛЕНИЯ") @db.Real
+  podshipnik_oporno_upornyj              Float?   @map("ПОДШИПНИК ОПОРНО-УПОРНЫЙ") @db.Real
+  podshipnik_opornyj_1                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №1") @db.Real
+  podshipnik_opornyj_2                   Float?   @map("ПОДШИПНИК ОПОРНЫЙ №2") @db.Real
+  podshipnik_opornyj                     Float?   @map("ПОДШИПНИК ОПОРНЫЙ") @db.Real
+  reguliruyushchaya_apparatura           Float?   @map("РЕГУЛИРУЮЩАЯ АППАРАТУРА") @db.Real
+  reduktor_gaz_zadvizhki                 Float?   @map("РЕДУКТОР ГАЗ. ЗАДВИЖКИ") @db.Real
+  rotor                                  Float?   @map("РОТОР") @db.Real
+  sapfir_22_mdd_perepad_davl_na_ciklo    Float?   @map("САПФИР 22 МДД ПЕРЕПАД ДАВЛ. НА ЦИКЛО") @db.Real
+  sapfir_22_mdd_razrezhenie_v_kollekto   Float?   @map("САПФИР 22 МДД РАЗРЕЖЕНИЕ В КОЛЛЕКТО") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu1       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ1") @db.Real
+  tirist_vozbuditel_vt_rem_400_vu2       Float?   @map("ТИРИСТ. ВОЗБУДИТЕЛЬ ВТ-РЭМ-400 ВУ2") @db.Real
+  tiristornyj_vozbuditel_spvd_m10_400    Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ СПВД-М10-400") @db.Real
+  tiristornyj_vozbuditel_tv_400_vu1      Float?   @map("ТИРИСТОРНЫЙ ВОЗБУДИТЕЛЬ ТВ-400 ВУ1") @db.Real
+  tr_r_tm_4000_10_6                      Float?   @map("ТР-Р ТМ-4000-10/6") @db.Real
+  tr_r_tm_6300_10_6                      Float?   @map("ТР-Р ТМ-6300-10/6") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_3 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.3") @db.Real
+  tsmt_101_010_50m_200_termopr_podsh_t_4 Float?   @map("ТСМТ-101-010-50М-200 ТЕРМОПР.ПОДШ.Т.4") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_1 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.1") @db.Real
+  tsmt_101_010_50m_400_termopr_podsh_t_2 Float?   @map("ТСМТ-101-010-50М-400 ТЕРМОПР.ПОДШ.Т.2") @db.Real
+  tsmt_101_010_50m_80_termopreobr_maslo  Float?   @map("ТСМТ-101-010-50М-80 ТЕРМОПРЕОБР.МАСЛО") @db.Real
+  ulita                                  Float?   @map("УЛИТА") @db.Real
+  eksgauster_a_m                         Float?   @map("ЭКСГАУСТЕР А/М") @db.Real
+  eksgauster_n_8000_a_m                  Float?   @map("ЭКСГАУСТЕР Н-8000 А/М") @db.Real
+  el_dvigatel_gaz_zadvizhki              Float?   @map("ЭЛ/ДВИГАТЕЛЬ ГАЗ. ЗАДВИЖКИ") @db.Real
+  elektroapparatura                      Float?   @map("ЭЛЕКТРОАППАРАТУРА") @db.Real
+  elektrodvigatel_dspu_140_84_4          Float?   @map("ЭЛЕКТРОДВИГАТЕЛЬ ДСПУ-140-84-4") @db.Real
+  elektrooborudovaniya                   Float?   @map("ЭЛЕКТРООБОРУДОВАНИЯ") @db.Real
+  machines                               machines @relation(fields: [machine_id], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "tm_m3_values_machines_fk")
+
+  @@unique([dt, machine_id], map: "tm_m3_values_dt_machine_id_idx")
+}
+
+model tms {
+  id                          Int     @id(map: "tms_pk") @default(autoincrement())
+  display_name                String  @db.VarChar
+  column_name                 String  @db.VarChar
+  model_column_name           String? @db.VarChar
+  average_m1_fix_time_seconds Float?
+  median_m1_fix_time_seconds  Float?
+  average_m3_fix_time_seconds Float?
+  median_m3_fix_time_seconds  Float?
+}
