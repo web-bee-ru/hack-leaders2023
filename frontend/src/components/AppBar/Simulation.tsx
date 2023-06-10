@@ -11,7 +11,7 @@ import * as d from 'date-fns';
 import { useRouter } from 'next/router';
 import {DEFAULT_START_DATE, MAX_DATE, MIN_DATE, SimulationContext} from "@/Providers/SimulationProvider";
 
-const TICK_HOURS = 8;
+const TICK_HOURS = 24;
 
 const DATE_IN_QUERY_FORMAT = 'yyyy-MM-dd-hh-mm';
 const Simulation = () => {
