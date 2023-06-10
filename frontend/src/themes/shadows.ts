@@ -45,6 +45,7 @@ const CustomShadows = () => ({
   button: `0 2px #0000000b`,
   text: `0 -1px 0 rgb(0 0 0 / 12%)`,
   z1: `0px 2px 8px ${alpha('#000', 0.15)}`,
+  0: '0 1px 4px 1px rgba(0, 65, 203, 0.4)',
   1: '0 1px 4px 1px rgba(0, 65, 203, 0.2)',
   2: '0 4px 16px 1px rgba(0, 65, 203, 0.1)',
   3: '0 4px 16px 1px rgba(0, 65, 203, 0.05)',

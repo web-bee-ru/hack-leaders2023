@@ -33,7 +33,7 @@ interface PredictModalProps {
   open: boolean;
   handleClose: () => void;
 }
-const PredictModal = ({m_type,tm,now,e,handleClose,open}: PredictModalProps) => {
+const PredictModal = ({m_type, tm, now, e, handleClose, open}: PredictModalProps) => {
   const loadPrediction = useCallback(async () => {
     const url = `/api/main/prediction-data?date=${formatDateForServer(now)}&machine_id=${e.id}&m_type=${m_type}&column_name=${tm.tmColumnName}`;
     return fetch(url).then(r => r.json());
@@ -64,8 +64,8 @@ const PredictModal = ({m_type,tm,now,e,handleClose,open}: PredictModalProps) => 
       aria-describedby="modal-modal-description"
     >
       <Box sx={style}>
-        <Typography variant="h6" component="h2">
-          Text in a modal
+        <Typography variant="h5" mb={3}>
+          {tm.tmName}
         </Typography>
         <PredictChart data={predictionData} />
       </Box>

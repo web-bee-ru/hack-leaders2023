@@ -1,5 +1,5 @@
 import { Alert, AlertProps, Box, Button, Portal, styled, Typography } from '@mui/material';
-import { createContext, FC, useCallback, useState } from 'react';
+import {createContext, FC, PropsWithChildren, useCallback, useState} from 'react';
 import { AxiosError } from 'axios';
 
 interface ErrorResponse {
@@ -19,9 +19,9 @@ export const getErrorMessage = (err: any): string => {
 };
 
 const StyledAlert = styled(Alert)`
-  padding: 14px 13px 14px 18px;
+  padding: 5px 10px;
   font-weight: 500;
-  border-radius: 12px;
+  border-radius: 5px;
   .MuiAlert-icon {
     min-width: 22px;
   }
@@ -111,7 +111,7 @@ export interface ToastProps {
 }
 
 export interface Toast extends ToastProps {
-  id: number;
+  id: string;
 }
 
 interface ToastsCalls {
@@ -133,46 +133,47 @@ export const ToastContext = createContext<ToastsCalls>({
   infoToast: () => null,
 });
 
-const ToastProvider: FC = ({ children }) => {
+let toastId = 0;
+const ToastProvider: FC = ({ children }: PropsWithChildren) => {
   const [toasts, setToasts] = useState<Toast[]>([]);
 
-  const handleClose = useCallback((toastId: number) => {
+  const handleClose = useCallback((toastId: string) => {
     setToasts((prevState) => prevState.filter((toast) => toast.id !== toastId));
   }, []);
 
   const addToast = useCallback(
     (toast: ToastProps) => {
-      const timestamp = Number(new Date());
-      setToasts((prevState) => [...prevState, { ...toast, id: timestamp }]);
-      setTimeout(() => handleClose(timestamp), toast.closeDelay ?? TOAST_AUTOCLOSE_DELAY);
+      const tid = `${toastId++}-${Date.now()}`;
+      setToasts((prevState) => [...prevState, { ...toast, id: tid }]);
+      setTimeout(() => handleClose(tid), toast.closeDelay ?? TOAST_AUTOCLOSE_DELAY);
     },
     [handleClose],
   );
 
   const errorToast = useCallback(
     (text: unknown, title?: string, variant?: AlertProps['variant'], button?: ButtonProps | false) => {
-      addToast({ text: getErrorMessage(text), title, variant, button, type: 'error' });
+      addToast({ text: getErrorMessage(text), title, variant: "filled", button, type: 'error' });
     },
     [addToast],
   );
 
   const successToast = useCallback(
     (text: string, title?: string, variant?: AlertProps['variant'], button?: ButtonProps | false) => {
-      addToast({ text, title, variant, button, type: 'success' });
+      addToast({ text, title, variant: "filled", button, type: 'success' });
     },
     [addToast],
   );
 
   const warningToast = useCallback(
     (text: string, title?: string, variant?: AlertProps['variant'], button?: ButtonProps | false) => {
-      addToast({ text, title, variant, button, type: 'warning' });
+      addToast({ text, title, variant: "filled", button, type: 'warning' });
     },
     [addToast],
   );
 
   const infoToast = useCallback(
     (text: string, title?: string, variant?: AlertProps['variant'], button?: ButtonProps | false) => {
-      addToast({ text, title, variant, button, type: 'info' });
+      addToast({ text, title, variant: "filled", button, type: 'info' });
     },
     [addToast],
   );
@@ -190,7 +191,7 @@ const ToastProvider: FC = ({ children }) => {
           mb={2}
           mr={2}
           gap={1}
-          sx={{ bottom: 0, right: 0 }}
+          sx={{ right: 0, top: 70 }}
           zIndex={(theme) => theme.zIndex.snackbar}
         >
           {toasts.map((toast: Toast) => (
@@ -201,6 +202,7 @@ const ToastProvider: FC = ({ children }) => {
                 onClose={() => handleClose(toast.id)}
                 action={
                   toast.button ? (
+                    // @ts-ignore
                     <Button
                       onClick={() => {
                         handleClose(toast.id);

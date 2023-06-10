@@ -75,6 +75,7 @@ export default ({ data }: PredictionChartProps) => {
               return val.toFixed(2);
             },
           },
+          max: Math.max(...series[1].data.map(it => it[1])) * 1.005,
         },
         {
           seriesName: 'predict',
@@ -90,7 +91,7 @@ export default ({ data }: PredictionChartProps) => {
           forceNiceScale: false,
           // @NOTE: rdem
           min: Math.min(...series[1].data.map(it => it[1])),
-          max: Math.max(...series[1].data.map(it => it[1])),
+          max: Math.max(...series[1].data.map(it => it[1])) * 1.005,
         },
       ],
       legend: {

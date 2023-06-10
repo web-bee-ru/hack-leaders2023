@@ -72,12 +72,12 @@ export default ({ e, tableData }: EDescProps) => {
           nextM1Crash: _m1CrashDate === EMPTY
             ? EMPTY
             : d.subMinutes(_m1CrashDate, 1) < now
-              ? 'Только что'
+              ? 'Отказ'
               : d.formatDistance(_m1CrashDate, now, { includeSeconds: true, addSuffix: true }),
           nextM3Crash: _m3CrashDate === EMPTY
             ? EMPTY
             : d.subMinutes(_m3CrashDate, 1) < now
-              ? 'Только что'
+              ? 'Неисправность'
               : d.formatDistance(_m3CrashDate, now, { includeSeconds: true, addSuffix: true }),
           avgM1Fix: it.medM1FixSec ? d.formatDistance(0, it.medM1FixSec * 1000, { includeSeconds: true }) : EMPTY,
           avgM3Fix: it.medM3FixSec ? d.formatDistance(0, it.medM3FixSec * 1000, { includeSeconds: true }): EMPTY,
