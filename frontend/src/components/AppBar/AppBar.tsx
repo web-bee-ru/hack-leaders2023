@@ -42,7 +42,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" color={'primary'}>
+    <AppBar position="sticky" color={'primary'}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Link href="/" height={40}>

@@ -1,0 +1,6914 @@
+[
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25324
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25317
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25297
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25425
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25383
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.2523739239340417
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 2.5373416057268674
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.2140414999530758
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.550410702498721
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.6730298432535988
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.3909311194715208
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.4889045004705613
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 4.674643187440757
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6309812581215906
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.734640885589254
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.13244965405477
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.7695337933520693
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -7.039047222222223
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -13.795
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.3784627716964333
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.11344954593190434
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.2564243109269136
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.6947234896803396
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.48739791666666665
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.41886764160574086
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.9192431122333948
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.37655291973222
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6888091937089947
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.2102320625123455
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.8508426695625
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.742424810750882
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.2606894176886798
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5796944802663224
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.1261351896340672
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.7366875218733027
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.0414400920028308
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.9343648086839507
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.3478136615308642
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.689423642987037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.3112520228146969
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.1338461538461537
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.172721518987342
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.1100402549134258
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.4325736447689592
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 3.3365302376188266
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.4404394685990336
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.6166748136537796
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.494631013969753
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.6950530715074783
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.5635461673294755
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 4.478987700854939
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.6239867109634551
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 3.357869047619047
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 2.4953221161064816
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.1412226851851854
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.0013791885078698
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 8.556651203703701
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 2.2145865740740738
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 5.881820293157407
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 3.85787722731358
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.534045474581252
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.943716216216216
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 15.225708333333333
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 4.036138888888889
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 14.517706018518519
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 10.616908050586419
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 5.28536443148688
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25361
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25297
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25206
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25318
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.9309277294791352
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.86365657009524
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.074464589648736
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.1212333942280521
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.1943453156018586
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.1909344842574185
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.37200749499229496
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.9264231612522141
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.5422465113888326
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.6324276801064528
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.7276472313798371
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.6430876928212932
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -33.07
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.41668682558187103
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.1862072936194444
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.3981248260053858
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.20754385964912284
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.34889564527314815
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.5178862268518518
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.7007969350862225
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.2864948830409356
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6245272721719028
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.7276006955938271
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.6499984285710649
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.8181650433944445
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.7852433345413059
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.3785925925925926
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.8279886214861729
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.9379361111111111
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.8646847222222221
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.9598473383030992
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.8536949087604939
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5888629299059083
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.9766888888888889
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.0417986111111113
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.0695717648641376
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.073260198373908
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.9558338132935338
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.801504913487037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.1550701034858386
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.1593150273159991
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.360559558910494
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.1887735707582139
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.1247113410281637
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.0986751627438271
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.475470609611008
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.3804949074074073
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.67137499201788
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.374289065490741
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.6592343905253086
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 2.4297310185185186
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.9908407407407402
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.241829827856025
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 2.400319087019437
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.596656326367353
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.7855662255848768
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 6.476358333333332
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 3.3233560185185183
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 6.153767129629629
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 14.395
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 7.3145930232558145
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25324
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25318
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25325
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.174807570991817
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.8220754656092044
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.1646825991310565
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.7555751791806975
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.7605372567291149
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.217599382849106
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.857636891726335
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.044548969448095
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.0195557546803973
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.8148931200783942
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.6484365107792702
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.8375269653792017
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -7.008349537037038
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.23384293168025716
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.1578430531699753
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.3328022182789352
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.28424632308549674
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.22623805555555554
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.3201351753909877
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.4986681050414736
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.3693077588408241
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.48142407512638635
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.8203254638580783
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.4323152777777778
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.570514145279784
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.7180811628603705
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.4521235056889506
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6362890081508643
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.1156163868110396
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.5590967071197411
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.8231324017332097
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.8615970967113535
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5111231838398148
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.7765769303201506
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.378788136001929
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.6410925006012346
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.0075706214689266
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.1277670675903217
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5916663933564597
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.9195227600354847
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.6490240381309123
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.7194265888897842
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.2147984545074073
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.7352654126260856
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.8238629082237654
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.4637604166666665
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.6611440202171037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.9012939814814814
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.6014944223747039
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.7731708028593465
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 3.125071018518518
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 3.580622386895833
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 4.226739467592592
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.6232784446270618
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.8096842120343837
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 5.11874919550926
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 8.503605555555557
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 5.77733865742284
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 8.284836574074074
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 7.965932407407407
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 7.298216666666666
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25318
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25362
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25317
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 3.094509509008085
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.8423383885286418
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 2.5263377515355656
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.7906295717384322
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.7980106607417774
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.208217085592266
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.8676765605172407
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 3.6242764321674477
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 6.640012066662075
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.4843674995206646
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.254473432528802
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.5774338130978134
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -6.594943055555555
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -7.575073868302469
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.8632779496344292
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.21121143284429675
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6450319266238973
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.3910659777972839
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.5266516556392901
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.9995885434260365
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.7555912750574296
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5530092388319059
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.9866017378661581
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.0235643489493607
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.9826868716608796
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.2640497149166665
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.166310264912066
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.7062249107753086
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.2735099152488891
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.1712617378917378
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.2131749085233716
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.6602442602064291
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.5500524978125787
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.7820264940191244
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.4644853616136086
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.2811087591403603
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.4342685727391973
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.9898097223518518
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 3.0495196448684823
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.8636616845634528
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.7565036111111108
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.5248241899680683
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.7452221900666667
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.248236339869281
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 4.264118911174785
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.0883924355158732
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 2.2981505102632975
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.3224352601898146
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 2.328886557217285
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.724173669467787
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 6.764645233024606
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 2.324103399874074
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 6.893737907546139
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 4.268439282407405
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 4.123036022564468
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 4.95839108186218
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 12.784294294294295
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 5.948727314814814
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 19.68309953703704
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 22.26217824074074
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 3. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 11.631335214876541
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25324
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25362
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25331
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25307
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25297
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25362
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.5872355197415908
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.3052785205022401
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.5021445818101261
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.281597620238225
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.1879983742736533
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.0074836447824445
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 3.015930755819361
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.1884441632369656
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 8.405089735563534
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.89597603308508
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.84553528988969
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.9084261314889391
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -100
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": -0.07808080808080797
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -6.5735824074074065
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.7393850100603622
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.2584091895634568
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.365250370041358
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.312487037037037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.28566347119703706
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.30369726184711415
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.0771077154941135
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.560866828523219
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6496022139457893
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.962770594109105
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.5978175925925926
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.46023908672498925
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.294448688006173
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.7837452064882717
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.7999351851851852
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.2665280676861863
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.8423184920634923
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.6040626432795341
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.4518352729810187
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.9582729166666666
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.8836578171091444
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.5856790123456794
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.015660634726852
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.7065030092592592
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.6449006671820987
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.1310256311358016
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.9864848484848484
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.1055616896166662
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.179478567563492
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.8966355140186915
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.1894092145531303
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.6461556234335841
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.4536088154402007
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 3.2819657407407408
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.5050151057401813
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.2423415994304698
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 3.323302919781585
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 3.7655291319444304
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 3.3175372676867285
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 5.7059732407407395
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 2.937623315266485
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 2.9068636621665043
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 7.001912325972222
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 8.93088287037037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 5.545796338040123
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 13.761047685185185
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 8.465568518518518
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 10.06015490271605
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25361
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25398
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25317
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25306
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.2193248882639653
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.518909557046985
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.2832144163931056
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.7710951883004082
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.4492774912281474
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.6902481876970772
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.793321115541312
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.262552039538583
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.659913161745447
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.326517001303681
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.1007258352271596
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.0798561837231846
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -6.30076923076923
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.31713375796178345
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.33376353941492676
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.6238488780816641
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.5895985252934036
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.21570833333333334
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0.8614805923777513
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.575578231292517
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0.5608728820341822
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0.7905858292837986
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0.8473701281986551
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.7275355012612874
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.1641989062079636
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0.8147688238117284
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.0172384259259262
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.056901402116402
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.1094840771259262
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0.8885154061624649
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.2494572868616207
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.027263596614396
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.2954622685185186
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.1658974537037037
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.3296317280453258
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.0361912706670302
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.3330541996138159
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.269306336962963
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1.4687156963938268
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.2659457151979565
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1.763579045935184
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 1.3450092198703705
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.4788058842288887
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1.6933168604320987
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 2.0493703689426095
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1.5408081412254413
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 2.2684582428333333
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 2.250255835869676
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 1.8908228193784475
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 2.7786488762870367
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 3.64770173611111
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 2.716789115609105
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 4.7133548114078705
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 3.3780406676396604
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 3.446232280746017
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 5.812479487237654
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 12.126171296296297
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 4.650736771188272
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 13.939701388888889
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 11.268263425925928
+  },
+  {
+    "sensor_name": "ВИБРАЦИЯ НА ОПОРЕ 4. ПРОДОЛЬНАЯ.",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 12.730930131512347
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25050
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25082
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25185
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25032
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25086
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 131.01904897527498
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 118.57954825128387
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 146.72427490717158
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 132.26066124419128
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 123.10470170488851
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 153.78175390218408
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 26.620236141196795
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 32.293918951555646
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 36.65649603616827
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 37.54628094341306
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 30.25138904654816
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 40.22776791104771
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -0.3569315842592592
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 100.83524461959378
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 85.57553201409391
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 100.55383131164199
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 92.48015543457223
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 86.59482976970457
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 112.10093229166667
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 115.49310150462964
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 98.52098077002316
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 128.31330092592592
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 113.93291884580248
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 104.32812826124615
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 136.39444906517093
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 123.44642995201852
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 101.94953377946914
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 139.9906979204596
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 122.23262478148149
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 114.83312895580096
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 144.22666514227643
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 129.57840698420662
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 105.8077863350926
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 151.9143699074074
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 129.70671864675927
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 122.99055151765432
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 149.29663076046418
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 137.61679263032985
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 130.14673727918913
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 159.7985475596654
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 137.86308686970085
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 129.58848345428524
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 155.8247929433612
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 148.37377397058822
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 140.73259806685866
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 170.72353564814816
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 154.60330363929123
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 142.38458959104938
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 169.88906215841973
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 170.13344101389276
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 174.88667120219807
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 188.3719163888889
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 186.34740231610436
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 171.92883921568625
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 224.3794143256173
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 339.220275
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 259.3134597222222
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 400
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 296.25764367816095
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 266.292990797546
+  },
+  {
+    "sensor_name": "ДАВЛЕНИЕ МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 364.83866350470674
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25325
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25328
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25326
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25396
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 40.97764455879672
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 40.74708816302414
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 43.8115796727121
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 44.89562347565328
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 39.42703576801861
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 35.01105801600788
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 5.918717215315014
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 6.569382339467452
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 6.081663908437264
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 65.9929573294752
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 8.452931952723667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 7.260062406818347
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -3.4681304347826085
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 32.04174277673546
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 29.990147395224586
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 34.01591893564356
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 28.626840456893994
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 22.325438882129628
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 22.185637749033603
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 37.812200956937794
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 36.9956214953271
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 40.9808480987055
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 37.276762561013065
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 35.50259415090218
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 30.86378716960352
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 40.20147495974692
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 39.595140372077346
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 43.478599463209875
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 40.33159851301116
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 39.114402739111114
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 34.322510369206356
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 41.64416666666667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 41.125128114146825
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 44.815342583904325
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 41.78656288308504
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 41.130616403888894
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 36.17938629748456
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 42.76898787569489
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 42.58322154800432
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 45.86615384615384
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.22479764799383
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 42.8849282008002
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 37.93628639230864
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 44.6760310026852
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 45.140510545849864
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 47.56493145752315
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 45.47942805468733
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 45.59882567264574
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 40.27704172796297
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 49.19618072818518
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.298528471459875
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 51.47464223002634
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 50.61354790021067
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 49.98233428969135
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 44.74330711295525
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 55.678751659043215
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 57.153390410958906
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 62.318125
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1418.4043343209876
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 59.786162162162164
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В МАСЛОБЛОКЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 54.569343845401235
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25313
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25313
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25323
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25315
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25187
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25356
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 35.63614632736786
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 36.269990847321104
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 27.923741193357117
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 31.32503080903857
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 41.60486233416489
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 21.44934473590657
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 7.988202763748124
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 7.198850518661669
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 10.346399725290508
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 8.420157152473365
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 7.124312905291203
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 8.455274358478512
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": -0.25744186046511636
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -8.077225274725276
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": -0.47676056338028183
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -12.375068807339451
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -13.278514492753622
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 18.916587356893977
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 22.49941902742009
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 8.991648739435998
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 15.16841331646295
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 28.352774000816467
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 6.580406928694983
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 31.88488372093023
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 32.43827018274691
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 21.45868154258313
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 26.343607075679017
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 38.98432685164924
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 15.726728109389656
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 34.83185751216579
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 35.325645511837855
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 26.11183191416667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 29.976496102301667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 41.54404856453377
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 19.888740601503763
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 36.84283038151234
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 37.11400321293209
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 28.86645390070922
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 32.13675966564814
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 42.86444250871081
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 22.28429341335813
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 38.744175054191366
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 38.654701304696644
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 31.552512645421256
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 34.09448427278906
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 44.21398132729167
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 24.587644628099174
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 41.21498792345679
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 41.34598824518518
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 35.30765219909706
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 37.222258799772135
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 46.17133335972058
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 27.675517657731486
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 46.173786583665574
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 46.47237212955554
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 43.4304052070463
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.687306165798546
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 49.841657074022905
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 33.911163470416675
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 56.14903416700618
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 54.273387891388886
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 52.63709619904321
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 55.04253333333334
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 57.79992538280864
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА МАСЛА В СИСТЕМЕ",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 42.14475833348766
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25413
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25254
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25197
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25423
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25323
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25313
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 46.42955044747055
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 49.78331819223633
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 51.332313620846826
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 46.61929085973561
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 51.85410415321147
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 41.17151774065425
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 7.644748786340779
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 8.122237611596155
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 7.843952228631469
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 7.6776276717319245
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 8.11919577909626
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 7.796463106371772
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": -0.34460526315789475
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -3.2885546875
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -11.456769230769229
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -1.3229145728643215
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 35.136616772253845
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 38.25843732466531
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 40.25691124109716
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 32.35561092420345
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 40.86491033057851
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 27.332479123822274
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 43.359707921141975
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 46.95780196325618
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 48.39525641025641
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.008376703179266
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 49.664116852361786
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 36.8962179709634
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 45.82957273784601
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 49.30051354425927
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 51.06248396075213
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 45.93116114003837
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 52.203012112253965
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 39.98624495904939
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 47.455
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.82087357954637
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 52.423644544074065
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 47.50240143369175
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 53.42784555067901
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 41.611445473055554
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 49.07797112881482
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 52.41015170278637
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 53.94780586220023
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 49.049753086419756
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 54.615644976958535
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 43.602606974843525
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 51.46523878024691
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 54.76
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 55.975764425185204
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 51.600832452654316
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 56.598777322145054
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 46.546218888048955
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 55.497429845463316
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 59.36727272727273
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 60.73635209839153
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 56.92070980810234
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 59.932818351237586
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 52.21781635703095
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 63.54772204320988
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 72.32773195876288
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 67.21223036191358
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 64.86644440657406
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 67.99558252427184
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 62.07478672985782
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25344
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25260
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25237
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25316
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 45.79241108973041
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 48.07842554978231
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 47.22445990206961
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 48.00537111703157
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 47.389597842044466
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 43.14428779360655
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 7.01389621149379
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 7.989297420616307
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 7.107508028699307
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 8.270072450546644
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 11.370515435179334
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 8.285261355797687
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": -32.48000614320988
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -6.043103448275862
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -182.12590617500004
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -1.1687142857142858
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 36.6664521873287
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 38.15355851608321
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 36.86978443113773
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 32.189735576923084
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 31.69096688252469
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 31.872129407964184
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 42.59676345843023
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 44.61848525851853
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 44.19367166719135
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 44.5226169159568
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 43.59854928231151
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 37.86784680451128
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 44.88509959673151
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 47.05505946326542
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 46.322240705042375
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 47.395799978888896
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 46.21228498480243
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 40.32236806861289
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 45.98096975794192
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 48.630504093703706
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 47.66471874166667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 49.209381234557725
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 47.976392601064816
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 42.09622287901436
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 47.43854451583968
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.2789392571358
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 49.04535997447619
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 50.97036771691357
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 49.982669966539675
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 44.62282531451853
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 49.71027019401928
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 52.764351146226204
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 51.25457698529708
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 53.57320995329291
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 54.24317438133573
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 49.49861946402006
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 55.857304306206615
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 58.8710971935384
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 57.20390832334677
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 58.41821166519867
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 59.53510750122369
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 56.09562082909723
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 69.20426874271605
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 67.10105079670416
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 66.115
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 69.47726449324075
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 67.75280000000001
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 65.08513367864197
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25408
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25314
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25418
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25295
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25330
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25361
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 41.31538612343356
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 46.23959183000073
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 45.58847984234865
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.72196106268732
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 43.329232035110046
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 40.836471196595205
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 6.529515614530005
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 7.057840078150568
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 7.307532708566459
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 8.43104676432232
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 5.9948132612701395
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 6.1789728417803085
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -0.42778125000000006
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": -113.00312372386422
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -10.965803108808288
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -3.156666666666667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 31.22165241935484
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 34.41721732218137
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 32.5457232981966
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 26.970382309666668
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 35.066835791728344
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 30.820599999999995
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 38.371809556026236
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 43.16605413796529
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 42.40920100887456
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 39.682877618333585
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 40.45963039350666
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 37.998374999999996
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 40.908982440480074
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 45.862684591168204
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 45.0408460774578
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.390568467264195
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 42.67666142136942
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 40.66377948271605
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 42.24084328023369
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 47.39988636363637
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 46.726995836342596
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 45.276248773148154
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 44.06533439921593
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 41.823257162032625
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 43.407579617834394
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 48.68483684203704
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 48.26647014013654
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 46.83777912972752
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 45.29612935812963
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 42.882384818827155
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 45.396817957291674
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.75416513903198
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 50.40316044477857
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 49.28833436767921
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 47.14374507294248
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 44.53461560543211
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 49.739591237722216
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 54.74008666154468
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 54.52314430197222
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 54.589112985402444
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 50.683768169237865
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 48.82574585796297
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 57.647944845833344
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 64.35002688299382
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 63.684999999999995
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 65.22829049432099
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 59.812330508474574
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 3",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 58.70514417237654
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25351
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25321
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25300
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25329
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25316
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25317
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 43.51028564112095
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.60163920654595
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 46.667878982146796
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.08580322964558
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 48.06112742421165
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 54.397685551638986
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 6.409610199235599
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 7.832145786448151
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 6.333945614637014
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 7.224400759986528
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 7.1663331928019565
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 8.247731649971996
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": -1.2207857142857144
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": -6.45573076923077
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -13.085746606334842
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": -5.30587786259542
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 34.07510715092042
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 36.890794701986756
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 38.073441980684954
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 30.517789316522894
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 39.447227533628435
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 45.14240613895548
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 40.53492857142858
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 47.68192238111111
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 44.59512792661267
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 40.01618503364197
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 44.95649589932127
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 52.53574660633484
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 42.864999999999995
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 50.510093749999996
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 46.41913538300041
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 42.46318210515932
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 46.69872093023256
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 54.7314121295947
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 44.25389830508475
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 52.11369565217392
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 47.457129284649774
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 43.90901471117283
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 48.178934347253545
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 55.86573197188272
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 45.4721875
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 53.55557617160493
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 48.671887431259265
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 45.36570637295496
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 49.862477081750434
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 56.91535331759101
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 47.53512178001543
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 55.6622947645679
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 50.3073283729784
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 47.69554676651236
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 52.70911594541667
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 58.51559777814815
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 51.615110858086425
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 59.40987038185185
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 53.797476834634246
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 52.48038548753087
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 57.10689977441186
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 62.48660140158024
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 59.89182879469138
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 66.4689324498457
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 62.067515527950306
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 66.41823170731708
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 149.39524260941357
+  },
+  {
+    "sensor_name": "ТЕМПЕРАТУРА ПОДШИПНИКА НА ОПОРЕ 4",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 70.62357099049382
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25242
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25306
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25288
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25197
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25361
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25424
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 280.64507753824586
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 346.22023947679355
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 317.28010613524094
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 350.7327894724867
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 207.9116181399008
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 304.53567083521233
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 68.5589104057993
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 74.44017033730789
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 100.3688851082333
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 71.64885167100151
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 166.47205678264012
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 81.8609178737344
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -93.79268926130895
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -81.13277197006482
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 227.61646435224787
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 305.75890254629627
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 138.00714954709878
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 316.90640084909177
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 17.759117647058822
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 194.34091815804976
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 246.7592265592795
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 340.726090710108
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 321.4807674448525
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 350.8649180327869
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 37.51983870967743
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 278.3051405907986
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 250.18521925925927
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 352.3833792302469
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 338.0927493421053
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 362.5731639224692
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 66.12018262411348
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 318.13373489789376
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 256.8654520212601
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 364.47728821010804
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 349.42458034196534
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 367.33672556481486
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 256.59340000000003
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 325.11834337082746
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 305.5123220795524
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 371.2765572562359
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 360.6057490994838
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 370.0404970111111
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 357.01529921790126
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 340.0161937464418
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 327.7903242960648
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 377.94770653132724
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 374.58354062434717
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 376.60546410987655
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 383.94449638425925
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 360.83500032083333
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 379.70887043499334
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 392.32881912620394
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 391.1858038512346
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 393.9138606894961
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 396.12112745192906
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 378.79351075776236
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 407.6435088222222
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 407.1536148648649
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1150.7312216543212
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 406.77695223888895
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 526.53652860291
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 1",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 427.0250163867284
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25236
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 25241
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25287
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 25229
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25296
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25297
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 280.83866823490405
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 346.0368022724064
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 317.28688829358936
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 350.6332896721894
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 207.4112733613608
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 304.22366145901555
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 68.19800289852161
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 74.88163612427321
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 100.36853379463524
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 71.83818325959496
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 166.3892924166562
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 81.94573450327857
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -93.79268926130895
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -81.13277197006482
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 227.63314837962963
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 305.4684535679374
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 138.00110157669755
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 316.0186826603081
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 17.714629677754676
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 194.30558727216555
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 246.76300636417074
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 340.6877490101852
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 321.48322026854214
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 350.84012195121954
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 37.30779007284393
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 277.39027940185184
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 250.1939277777778
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 352.2193664592593
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 338.0943431412337
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 362.52854868345673
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 65.9921606965174
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 317.9337724769434
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 256.8749180886243
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 364.516486536676
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 349.42548387096775
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 367.3074138070988
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 255.72843411296296
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 324.9451869436202
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 305.536150462963
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 371.3233291666666
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 360.6059001393603
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 370.0274736250597
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 356.9509513888889
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 339.5745739291252
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 327.80245552376545
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 377.9813495898148
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 374.5848058624289
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 376.5845487481482
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 383.70198427631175
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 360.5436348083334
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 379.71087786898147
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 392.33624208566107
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 391.1861416172839
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 393.9106446936797
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 396.0763389818672
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 378.76116189358027
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 407.64330385555564
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 407.1536148648649
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 1150.7312216543212
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 406.77764613950615
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 526.5366692695767
+  },
+  {
+    "sensor_name": "ТОК РОТОРА 2",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 427.02483777561736
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 25156
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 24880
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 25217
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 24972
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 25227
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "count",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 25286
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 254.90295381561094
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 679.0546104310937
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 258.29427855161623
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 220.55410186712092
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 217.42283238972288
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "mean",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 252.81135772601053
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 43.88082674937785
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 1468.2134584131175
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 57.05210929864418
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 50.85120728893065
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 55.29326638276482
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "std",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 53.811879532380374
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": -24.764464543940733
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": -16.824125702415028
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": -300.7573708333333
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "min",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 0
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 235.32586793180542
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 245.8317904824691
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 240.4598765199383
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 182.5585052774722
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 176.34079123891667
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "5%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 232.15564997845465
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 253.37703876772488
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 266.9522122994178
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 258.10940509915014
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 193.83555222500001
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 193.3860236111111
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "25%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 255.2185427780093
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 258.31075418994413
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 272.58486221333334
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 263.94871446110994
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 199.52756060712895
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 199.27832509259258
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "40%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 259.96583830000003
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 261.2907251611111
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 276.29921395274584
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 267.2322535211268
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 205.92732042824073
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 205.6938172655864
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "50%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 262.72276723032223
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 264.22766019151237
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 279.96887323580245
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 270.27790328625235
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 247.55504637931034
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 249.0256199253895
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "60%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 265.4921532407407
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 269.63581654781143
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 286.0024854662699
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 275.58473055555555
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 261.0235881734007
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 260.08312418349806
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "75%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 270.35545859800914
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 283.00224026396603
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 6000
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 286.8220405090703
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 278.13319584657995
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 275.16009384259263
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "95%",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 285.2184572775352
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №4",
+    "value": 1006.7433333333333
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №5",
+    "value": 6000
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №6",
+    "value": 3150
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №7",
+    "value": 1435.5258333333334
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №8",
+    "value": 472.8663888888889
+  },
+  {
+    "sensor_name": "ТОК СТАТОРА",
+    "quantile": "max",
+    "machine_name": "ЭКСГАУСТЕР А/М №9",
+    "value": 419.288948275862
+  }
+]

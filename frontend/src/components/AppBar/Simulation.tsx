@@ -11,6 +11,8 @@ import * as d from 'date-fns';
 import { useRouter } from 'next/router';
 import {DEFAULT_START_DATE, MAX_DATE, MIN_DATE, SimulationContext} from "@/Providers/SimulationProvider";
 
+const TICK_HOURS = 8;
+
 const DATE_IN_QUERY_FORMAT = 'yyyy-MM-dd-hh-mm';
 const Simulation = () => {
   const router = useRouter();
@@ -42,15 +44,16 @@ const Simulation = () => {
   );
 
   const processTick = useCallback(() => {
-    // @TODO: добавить проверку, чтобы не "протикать" в будущее, к данным, которых у нас нет
     if (!isPlaying) return;
-    setNow(d.addHours(now, 50));
+    let nextDate = d.addHours(now, TICK_HOURS);
+    if (nextDate > MAX_DATE) nextDate = MAX_DATE;
+    setNow(nextDate);
   }, [isPlaying, setNow, now]);
 
   useEffect(() => {
     const interval = setInterval(() => {
       processTick();
-    }, 20000);
+    }, 1000);
     return () => clearInterval(interval);
   }, [isPlaying, processTick]);
 

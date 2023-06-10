@@ -7,6 +7,7 @@ import EDescriptionFull, { EventDescription } from '@/components/Dash/EDescripti
 import useSWR from "swr";
 import {SimulationContext} from "@/Providers/SimulationProvider";
 import {formatDateForServer} from "@/lib/utils";
+import SensorCharts from "@/components/Dash/SensorCharts";
 
 interface ETabContentProps {
   e: E;
@@ -15,6 +16,7 @@ interface ETabContentProps {
 export interface ResultForTableRow {
   tmId: number;
   tmName: string;
+  tmColumnName: string;
   lastM1Crash: string | null;
   lastM3Crash: string | null;
   nextM1CrashSec: number | null;
@@ -61,7 +63,8 @@ export default ({ e }: ETabContentProps) => {
         <>
           <EDescriptionFull e={e} tableData={tableData} />
           {/*@TODO*/}
-          <ECharts e={e} />
+          <SensorCharts e={e} now={now} />
+          {/*<ECharts e={e} />*/}
         </>
       )}
     </>

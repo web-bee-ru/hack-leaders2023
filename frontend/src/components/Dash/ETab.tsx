@@ -61,15 +61,25 @@ export default ({ e, ...props }: ETabProps) => {
     if (status === 'warning')
       return (
         <>
-          <StyledDesc variant="body2">Статус: ВНИМАНИЕ</StyledDesc>
-          <StyledDesc variant="body2">Дней до M3: {e.daysToM3}</StyledDesc>
+          {e.daysToM3 === 0
+            ? (<StyledDesc variant="body2">Статус: ПОЛОМКА (М3)</StyledDesc>)
+            : (<>
+              <StyledDesc variant="body2">Статус: ВОЗМОЖНА ПОЛОМКА</StyledDesc>
+              <StyledDesc variant="body2">Дней до M3: {parseInt(e.daysToM3 as any)}</StyledDesc>
+            </>)
+          }
         </>
       );
     if (status === 'error')
       return (
         <>
-          <StyledDesc variant="body2">Статус: ОШИБКА</StyledDesc>
-          <StyledDesc variant="body2">Дней до M1: {e.daysToM3}</StyledDesc>
+          {e.daysToM1 === 0
+            ? (<StyledDesc variant="body2">Статус: ОСТАНОВЛЕН (М1)</StyledDesc>)
+            : (<>
+              <StyledDesc variant="body2">Статус: ВОЗМОЖНА ОСТАНОВКА</StyledDesc>
+              <StyledDesc variant="body2">Дней до M1: {parseInt(e.daysToM1 as any)}</StyledDesc>
+            </>)
+          }
         </>
       );
   }, [status]);
