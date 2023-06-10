@@ -20,8 +20,13 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const pages: string[] = [];
 // @TODO: добавить кнопки скачивания результатов
-const settings: string[] = ['Презентация', 'Submission-1', 'Submission-2', 'Submission-3', 'Отчетность'];
-
+const downloadable: {name: string; link: string;}[] = [
+  { name: 'Презентация', link: 'presentation.zip' },
+  { name: 'Задача-1', link: 'task-1.zip' },
+  { name: 'Задача-2', link: 'task-2.zip' },
+  { name: 'Задача-3', link: 'task-3.zip' },
+  { name: 'Отчет о работе', link: 'result.zip' },
+];
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
@@ -85,9 +90,9 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+              {downloadable.map(({name, link}) => (
+                <MenuItem key={name} sx={{padding: 0}}>
+                  <Link sx={{px: 3, py: 1, width: '100%', height: '100%'}} onClick={handleCloseUserMenu} href={`/uploads/${link}`} target={"_blank"} style={{textDecoration: 'none'}}>{name}</Link>
                 </MenuItem>
               ))}
             </Menu>

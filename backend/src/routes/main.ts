@@ -6,10 +6,11 @@ import * as d from 'date-fns';
 import _ from 'lodash';
 import { getMinTmTime } from '../lib/utils';
 import { returnOf } from 'arktype/dist/types/utils/generics';
-import { machines, tms, tm_m1_values, tm_m3_values, sensor_values } from '../prisma/client';
+import { machines, tms, tm_m1_values, tm_m3_values, sensor_values, tm_m1_predictions, tm_m3_predictions } from '../prisma/client';
 import { ParameterizedContext } from 'koa';
 
 const INTERVAL_DAYS = 50;
+const MAX_REAL_DATE = new Date('2021-12-30');
 function getStartDate(ctx: ParameterizedContext): Date {
   const date = ctx.query.date ? new Date(ctx.query.date as string) : d.subDays(new Date(), INTERVAL_DAYS);
   return date;
@@ -49,30 +50,25 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
   router.get([prefix + '/machines-for-tabs'], async (ctx) => {
     const date = getStartDate(ctx);
     const exs = global.MACHINES as machines[];
-    // const m1s = await prisma.tm_m1_values.findMany({
-    //   where: {
-    //     dt: {
-    //       gte: d.subDays(date, 1),
-    //       lte: date,
-    //     },
-    //   },
-    // });
-    // const m3s = await prisma.tm_m3_values.findMany({
-    //   where: {
-    //     dt: {
-    //       gte: d.subDays(date, 1),
-    //       lte: date,
-    //     },
-    //   },
-    // });
     const fromDate = d.subDays(date, 1);
     const toDate = date;
-    const m1s = _.filter(global.M1_VALS as tm_m1_values, (it) => {
-      return it.dt > fromDate && it.dt < toDate;
-    });
-    const m3s = _.filter(global.M3_VALS as tm_m3_values, (it) => {
-      return it.dt > fromDate && it.dt < toDate;
-    });
+    let m1s, m3s;
+    if (MAX_REAL_DATE > toDate) {
+      m1s = _.filter(global.M1_VALS as tm_m1_values, (it) => {
+        return it.dt > fromDate && it.dt < toDate;
+      });
+      m3s = _.filter(global.M3_VALS as tm_m3_values, (it) => {
+        return it.dt > fromDate && it.dt < toDate;
+      });
+    }
+    else {
+      m1s = _.filter(global.M1_PREDS as tm_m1_predictions, (it) => {
+        return it.dt > fromDate && it.dt < toDate;
+      });
+      m3s = _.filter(global.M3_PREDS as tm_m3_predictions, (it) => {
+        return it.dt > fromDate && it.dt < toDate;
+      });
+    }
     // console.log({ fromDate, date, m1s, q: global.M1_VALS[0] });
     const groupedM1s = _.groupBy(m1s, 'machine_id');
     const groupedM3s = _.groupBy(m3s, 'machine_id');
@@ -92,34 +88,30 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
   router.get([prefix + '/tms-for-table'], async (ctx) => {
     const date = getStartDate(ctx);
     const machine_id = Number(ctx.query.machine_id) || 4;
-    // const m1s = await prisma.tm_m1_values.findMany({
-    //   where: {
-    //     machine_id,
-    //     dt: {
-    //       lte: date,
-    //     },
-    //   },
-    //   orderBy: {
-    //     dt: 'asc',
-    //   },
-    // });
-    // const m3s = await prisma.tm_m3_values.findMany({
-    //   where: {
-    //     machine_id,
-    //     dt: {
-    //       lte: date,
-    //     },
-    //   },
-    //   orderBy: {
-    //     dt: 'asc',
-    //   },
-    // });
-    const m1s = _.filter(global.M1_VALS as tm_m1_values, (it) => {
-      return it.machine_id === machine_id && it.dt < date;
-    });
-    const m3s = _.filter(global.M3_VALS as tm_m3_values, (it) => {
-      return it.machine_id === machine_id && it.dt < date;
-    });
+
+    let m1s, m3s;
+    if (MAX_REAL_DATE > date) {
+      m1s = _.filter(global.M1_VALS as tm_m1_values, (it) => {
+        return it.machine_id === machine_id && it.dt < date;
+      });
+      m3s = _.filter(global.M3_VALS as tm_m3_values, (it) => {
+        return it.machine_id === machine_id && it.dt < date;
+      });
+    }
+    else {
+      m1s = _.filter(global.M1_VALS as tm_m1_values, (it) => {
+        return it.machine_id === machine_id;
+      });
+      m3s = _.filter(global.M3_VALS as tm_m3_values, (it) => {
+        return it.machine_id === machine_id;
+      });
+      m1s = m1s.concat(_.filter(global.M1_PREDS as tm_m1_predictions, (it) => {
+        return it.machine_id === machine_id && it.dt < date;
+      }))
+      m3s = m3s.concat(_.filter(global.M3_PREDS as tm_m3_predictions, (it) => {
+        return it.machine_id === machine_id && it.dt < date;
+      }))
+    }
     const tms = global.TMS.slice() as tms[];
     const tmsSet = {};
     tms.forEach((tm) => {
@@ -139,18 +131,20 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
       tmsSet[col].medM1FixSec = tm.median_m1_fix_time_seconds;
       tmsSet[col].medM3FixSec = tm.median_m3_fix_time_seconds;
       tmsSet[col].tmName = tm.display_name;
-      m1s.forEach((m1) => {
-        if (m1[col] < 60 * 60 * 2) {
+      for (let i = m1s.length - 1; i >= 0; i--) {
+        if (m1s[i][col] < 60 * 60 * 2) {
           // @NOTE: мы поломаны.
-          tmsSet[col].lastM1Crash = m1.dt;
+          tmsSet[col].lastM1Crash = m1s[i].dt;
+          break;
         }
-      });
-      m3s.forEach((m3) => {
-        if (m3[col] < 60 * 60 * 2) {
+      }
+      for (let i = m3s.length - 1; i >= 0; i--) {
+        if (m3s[i][col] < 60 * 60 * 2) {
           // @NOTE: мы поломаны.
-          tmsSet[col].lastM3Crash = m3.dt;
+          tmsSet[col].lastM3Crash = m3s[i].dt;
+          break;
         }
-      });
+      }
       const lastM1 = _.last(m1s);
       tmsSet[col].nextM1CrashSec = lastM1 ? lastM1[col] : null;
       const lastM3 = _.last(m3s);

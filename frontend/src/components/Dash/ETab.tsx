@@ -18,18 +18,21 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import Avatar from '@mui/material/Avatar';
 import {ToastContext} from "@/Providers/ToastProvider";
 import Button from "@mui/material/Button";
+import * as d from "date-fns";
+import {SimulationContext} from "@/Providers/SimulationProvider";
 
 interface ETabProps extends ListItemButtonProps {
   e: E;
 }
 
 export default ({ e, ...props }: ETabProps) => {
+  const { now } = useContext(SimulationContext);
   const [isFirst, setIsFirst] = useState(true);
   const { successToast, errorToast, infoToast, warningToast } = useContext(ToastContext);
   const theme = useTheme();
   const status = useMemo<'ok' | 'error' | 'warning'>(() => {
-    if (e.daysToM1 != null) return 'error';
-    if (e.daysToM3 != null) return 'warning';
+    if (e.secondsToM1 != null) return 'error';
+    if (e.secondsToM3 != null) return 'warning';
     return 'ok';
   }, [e]);
 
@@ -82,11 +85,13 @@ export default ({ e, ...props }: ETabProps) => {
     if (status === 'warning')
       return (
         <>
-          {e.daysToM3 === 0
+          {Number(e.secondsToM3) < 60 * 60 * 24
             ? (<StyledDesc variant="body2">Статус: НЕИСПРАВНОСТЬ (М3)</StyledDesc>)
             : (<>
               <StyledDesc variant="body2">Статус: ВОЗМОЖНА НЕИСПРАВНОСТЬ</StyledDesc>
-              <StyledDesc variant="body2">Дней до M3: {parseInt(e.daysToM3 as any)}</StyledDesc>
+              <StyledDesc variant="body2">
+                M3 {d.formatDistance(d.addSeconds(now, e.secondsToM3 || 0), now, { addSuffix: true })}
+              </StyledDesc>
             </>)
           }
         </>
@@ -94,16 +99,18 @@ export default ({ e, ...props }: ETabProps) => {
     if (status === 'error')
       return (
         <>
-          {e.daysToM1 === 0
+          {Number(e.secondsToM1) < 60 * 60 * 24
             ? (<StyledDesc variant="body2">Статус: ОТКАЗ (М1)</StyledDesc>)
             : (<>
               <StyledDesc variant="body2">Статус: ВОЗМОЖЕН ОТКАЗ</StyledDesc>
-              <StyledDesc variant="body2">Дней до M1: {parseInt(e.daysToM1 as any)}</StyledDesc>
+              <StyledDesc variant="body2">
+                M1 {d.formatDistance(d.addSeconds(now, e.secondsToM1 || 0), now, { addSuffix: true })}
+              </StyledDesc>
             </>)
           }
         </>
       );
-  }, [e.daysToM1, e.daysToM3, status]);
+  }, [e.secondsToM1, e.secondsToM3, status]);
 
   return (
     <ListItemButton {...props}>

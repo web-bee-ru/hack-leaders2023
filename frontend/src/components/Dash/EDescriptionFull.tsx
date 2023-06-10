@@ -121,12 +121,12 @@ export default ({ e, tableData }: EDescProps) => {
         <TableHead>
           <TableRow>
             <TableCell style={{ fontWeight: 600 }}>Техместо</TableCell>
-            <TableCell align={"center"}><Tooltip title={"M3 - ближайшая поломка (прогноз)"}><ReportIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
-            <TableCell align={"center"}><Tooltip title={"M3 - предыдущая поломка"}><HistoryIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
-            <TableCell align={"center"}><Tooltip title={"M3 - среднее время устранения (статистика)"}><HourglassBottomIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
-            <TableCell align={"center"}><Tooltip title={"M1 - ближайшая поломка (прогноз)"}><ReportIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
-            <TableCell align={"center"}><Tooltip title={"M1 - предыдущая поломка"}><HistoryIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
-            <TableCell align={"center"}><Tooltip title={"M1 - среднее время устранения (статистика)"}><HourglassBottomIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M3 - ближайшая поломка (прогноз)"}><ReportIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M3 - предыдущая поломка"}><HistoryIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M3 - среднее время устранения (статистика)"}><HourglassBottomIcon style={{verticalAlign: 'middle'}} color={"action"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M1 - ближайшая поломка (прогноз)"}><ReportIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M1 - предыдущая поломка"}><HistoryIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
+            <TableCell align={"center"}><Tooltip placement={"top"} arrow={true} title={"M1 - среднее время устранения (статистика)"}><HourglassBottomIcon style={{verticalAlign: 'middle'}} color={"error"} /></Tooltip></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

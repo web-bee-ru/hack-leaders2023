@@ -131,6 +131,4 @@ dist
 # prisma
 src/prisma/client
 .idea
-/sVals.json
-/strM1s.json
-/strM3s.json
+/src/serialized/

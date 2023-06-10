@@ -54,7 +54,7 @@ export default ({ data }: PredictionChartProps) => {
       colors: ['#002884', '#ba000d'],
       stroke: {
         width: [2, 1],
-        // curve: 'smooth',
+        curve: 'smooth',
       },
       xaxis: {
         type: 'datetime',

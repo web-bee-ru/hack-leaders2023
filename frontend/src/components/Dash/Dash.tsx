@@ -30,9 +30,11 @@ import {formatDateForServer} from "@/lib/utils";
 export interface E {
   id: number;
   name: string;
-  daysToM1: number | null;
-  daysToM3: number | null;
+  secondsToM1: number | null;
+  secondsToM3: number | null;
 }
+
+export const MAX_SECONDS = 2678000;
 
 const Index = () => {
   const [active, setActive] = React.useState<E>();
@@ -57,13 +59,11 @@ const Index = () => {
   const machines = useMemo<E[]>(() => {
     if (!result.data) return [];
     return result.data.map((it: any) => {
-      const daysToM1 = it.secondsToM1 / 60 / 60 / 24;
-      const daysToM3 = it.secondsToM3 / 60 / 60 / 24;
       const e: E = {
         id: it.id,
         name: it.display_name,
-        daysToM1: daysToM1 > 30 ? null : daysToM1,
-        daysToM3: daysToM3 > 30 ? null : daysToM3,
+        secondsToM1: it.secondsToM1 > MAX_SECONDS ? null : it.secondsToM1,
+        secondsToM3: it.secondsToM3 > MAX_SECONDS ? null : it.secondsToM3,
       };
       return e;
     });
