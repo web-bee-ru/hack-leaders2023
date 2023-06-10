@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as d from 'date-fns';
 import { ru } from 'date-fns/locale';
-import { E } from '@/components/Dash/Dash';
+import {E, MAX_SECONDS} from '@/components/Dash/Dash';
 import {
   Box,
   CircularProgress,
@@ -56,10 +56,10 @@ export default ({ e, tableData }: EDescProps) => {
   const formattedTableData = useMemo<FormattedTableRow[]>(() => {
     return tableData
       .map(it => {
-        const _m1CrashDate = it.nextM1CrashSec != null && it.nextM1CrashSec < 60 * 60 * 24 * 30
+        const _m1CrashDate = it.nextM1CrashSec != null && it.nextM1CrashSec < MAX_SECONDS
             ? d.addSeconds(now, it.nextM1CrashSec)
             : EMPTY;
-        const _m3CrashDate = it.nextM3CrashSec != null && it.nextM3CrashSec < 60 * 60 * 24 * 30
+        const _m3CrashDate = it.nextM3CrashSec != null && it.nextM3CrashSec < MAX_SECONDS
             ? d.addSeconds(now, it.nextM3CrashSec)
             : EMPTY;
         return {

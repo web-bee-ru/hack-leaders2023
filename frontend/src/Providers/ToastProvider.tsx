@@ -191,7 +191,7 @@ const ToastProvider: FC = ({ children }: PropsWithChildren) => {
           mb={2}
           mr={2}
           gap={1}
-          sx={{ right: 0, top: 70 }}
+          sx={{ right: 0, bottom: 10 }}
           zIndex={(theme) => theme.zIndex.snackbar}
         >
           {toasts.map((toast: Toast) => (

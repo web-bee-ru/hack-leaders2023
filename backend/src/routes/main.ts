@@ -9,7 +9,7 @@ import { returnOf } from 'arktype/dist/types/utils/generics';
 import { machines, tms, tm_m1_values, tm_m3_values, sensor_values, tm_m1_predictions, tm_m3_predictions } from '../prisma/client';
 import { ParameterizedContext } from 'koa';
 
-const INTERVAL_DAYS = 50;
+const INTERVAL_DAYS = 30;
 const MAX_REAL_DATE = new Date('2021-12-30');
 function getStartDate(ctx: ParameterizedContext): Date {
   const date = ctx.query.date ? new Date(ctx.query.date as string) : d.subDays(new Date(), INTERVAL_DAYS);
@@ -63,13 +63,14 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
     }
     else {
       m1s = _.filter(global.M1_PREDS as tm_m1_predictions, (it) => {
-        return it.dt > fromDate && it.dt < toDate;
+        return it.dt > fromDate && it.dt <= toDate;
       });
       m3s = _.filter(global.M3_PREDS as tm_m3_predictions, (it) => {
-        return it.dt > fromDate && it.dt < toDate;
+        return it.dt > fromDate && it.dt <= toDate;
       });
     }
-    // console.log({ fromDate, date, m1s, q: global.M1_VALS[0] });
+    m1s = m1s.slice(-365 * 24); // @NOTE: хоть как-то спасаю бедную виртуалку...
+    m3s = m3s.slice(-365 * 24); // @NOTE: хоть как-то спасаю бедную виртуалку...
     const groupedM1s = _.groupBy(m1s, 'machine_id');
     const groupedM3s = _.groupBy(m3s, 'machine_id');
     const populatedExs = exs.map((ex) => {
@@ -78,8 +79,8 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
       // console.log({ exM1s, exM3s });
       return {
         ...ex,
-        secondsToM1: _.min(exM1s.map((it) => getMinTmTime(it))),
-        secondsToM3: _.min(exM3s.map((it) => getMinTmTime(it))),
+        secondsToM1: getMinTmTime(_.last(_.orderBy(exM1s, 'dt'))),
+        secondsToM3: getMinTmTime(_.last(_.orderBy(exM3s, 'dt'))),
       };
     });
     ctx.body = populatedExs;
@@ -112,6 +113,8 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
         return it.machine_id === machine_id && it.dt < date;
       }))
     }
+    m1s = m1s.slice(-365 * 24); // @NOTE: хоть как-то спасаю бедную виртуалку...
+    m3s = m3s.slice(-365 * 24); // @NOTE: хоть как-то спасаю бедную виртуалку...
     const tms = global.TMS.slice() as tms[];
     const tmsSet = {};
     tms.forEach((tm) => {
@@ -169,7 +172,7 @@ export default function registerUserRoutes(router: Router, prefix = '/main') {
     const machine_id = Number(ctx.query.machine_id) || 4;
     const m_type = ctx.query.m_type || 'm1';
     const column_name = ctx.query.column_name || 'rotor';
-    const fromDate = d.subDays(date, INTERVAL_DAYS * 2);
+    const fromDate = d.subDays(date, INTERVAL_DAYS);
     const toDate = date;
 
     let preds, real;

@@ -34,7 +34,7 @@ export interface E {
   secondsToM3: number | null;
 }
 
-export const MAX_SECONDS = 2678000;
+export const MAX_SECONDS = 2677000;
 
 const Index = () => {
   const [active, setActive] = React.useState<E>();
